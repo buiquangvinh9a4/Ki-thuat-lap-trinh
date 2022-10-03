@@ -1,11 +1,6 @@
 #include <iostream>
-#include <cmath>
 using namespace std;
 
-/*
-    sqrt(x)  : ham tinh can bac hai cua x
-
- */
 
 int main() {
 	int number;
@@ -16,8 +11,7 @@ int main() {
 	if (number < 2) {
 		check = false;
 	} else {
-		int tmp = sqrt(number);
-		for (int i = 2; i <= tmp; i++) {
+		for (int i = 2; i < number; i++) {
 			if (number % i == 0) {
 				check = false;
 				break;
@@ -25,7 +19,7 @@ int main() {
 		}
 	}
 
-	if (check) {
+	if (check == true) {
 		cout << "YES";
 	} else {
 		cout << "NO";
