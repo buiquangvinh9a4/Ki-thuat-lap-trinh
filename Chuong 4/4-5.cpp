@@ -11,7 +11,6 @@ int main() {
 	// tinh sa
 	for (int i = 1; i <= n; i++) {
 		sa += i;
-		sb += i * i;
 	}
 
 	// tinh sb
