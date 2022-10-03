@@ -4,7 +4,7 @@ using namespace std;
 int main() {
     float F, toC;
     cin >> F;
-    toC = (F - 32) / (9.0 / 5);
+    toC = (F - 32) * (5.0 / 9);
     cout << toC;
 
     float  C, toF;

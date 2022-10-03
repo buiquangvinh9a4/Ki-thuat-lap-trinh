@@ -2,6 +2,12 @@
 #include <cmath>
 using namespace std;
 
+/*
+    pow(x, y): ham tinh x mu y
+    sqrt(x)  : ham tinh can bac hai cua x
+
+ */
+
 int main() {
 	int n;
 	do {

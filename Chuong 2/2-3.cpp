@@ -11,7 +11,8 @@ int main() {
     c = tmp % 10; tmp /= 10;
     d = tmp % 10;
 
-    int s1 = a + b + c + d, s2 = a * b * c * d;
+    int s1 = a + b + c + d;
+    int s2 = a * b * c * d;
     cout << a << "+" << b << "+" << c << "+" << d << "=" << s1 << endl;
     cout << a << "*" << b << "*" << c << "*" << d << "=" << s2 << endl;
 

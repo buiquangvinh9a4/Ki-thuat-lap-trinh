@@ -2,6 +2,11 @@
 #include <cmath>
 using namespace std;
 
+/*
+    sqrt(x)  : ham tinh can bac hai cua x
+
+ */
+
 int main() {
 	int n;
 	cin >> n;

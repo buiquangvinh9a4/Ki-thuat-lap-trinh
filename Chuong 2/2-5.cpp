@@ -2,16 +2,17 @@
 using namespace std;
 
 int main() {
-    double d, x;
-    cin >> d >> x;
+    double duong_kinh, dientich_1con;
+    cin >> duong_kinh >> dientich_1con;
 
-    // Do dai day thep gai -> 3 vong
-    float p = 3 * (d * 3.14);
-    cout << p  << endl;
+    // Do dai day thep gai -> 3 vong 
+    float chuvi = duong_kinh * 3.14;
+    cout << chuvi * 3 << endl;
 
     // Tinh so luong bo
-    float s = (3.14 * (d / 2.0) * (d / 2.0)) / x;
-    cout << int(s) << endl;
+    float dientich = 3.14 * (duong_kinh / 2.0) * (duong_kinh / 2.0);
+    float soluongbo = dientich / dientich_1con;
+    cout << int(soluongbo) << endl;
 
     return 0;
 }
