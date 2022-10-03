@@ -6,12 +6,15 @@ int main() {
 	int M;
 	cin >> M;
 
+	// dem so luong cac chu so co trong M
 	int k = 0, N = M;
 	while (N > 0) {
 		N /= 10;
 		k++;
 	}
 
+
+	// tinh tong luy thua cac chu so co trong M
 	N = M;
 	int sum = 0;
 	while (N > 0) {
@@ -20,6 +23,8 @@ int main() {
 		sum += pow(tmp, k);
 	}
 
+
+	// So sanh M voi Sum theo dieu kien de bai
 	if (M == sum) {
 		cout << "YES";
 	} else {
